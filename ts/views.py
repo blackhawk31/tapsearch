@@ -7,19 +7,21 @@ from rest_framework import generics
 from .models import Index
 from .serializers import HomeSerializer
 
-
+# Global  variable for document id
 temp = Index.objects.all().aggregate(Max('document_id'))
 g_doc_id = temp['document_id__max'] if temp['document_id__max'] else 0
 
+# Search Page
 def search(request):
     context = {}
     return render(request, 'search.html', context)
 
-
+# Index page
 def index(request):
     context = {}
     return render(request, 'index.html', context)
 
+# Function to insert the document's indexes into database
 def success(request):
     if(request.method == 'POST'):
         all_terms = Index.objects.all()
@@ -61,6 +63,7 @@ def success(request):
     else :
         return HttpResponse('Invalid path<br> <a href="/">Click here to go back to main page</a>')
 
+# Function for searching index
 def query(request):
     if(request.method == 'POST'):
         # all_terms = Index.objects.all()
@@ -86,7 +89,7 @@ def query(request):
     else :
         return HttpResponse('Invalid path<br> <a href="/">Click here to go back to main page</a>')
 
-
+# Clear Page
 def clear(request):
     Index.objects.all().delete()
     global g_doc_id
@@ -94,13 +97,13 @@ def clear(request):
     print("Global doc id = ",g_doc_id)
     return render(request, 'clear.html')
 
-
+# Home page
 def home(request):
     a = Index.objects.filter(key = "lorem")
     global g_doc_id
     print(g_doc_id)
     return render(request, 'home.html')
-
+# APIView Page
 class HomeAPIView(generics.ListAPIView):
     queryset = Index.objects.all()
     serializer_class = HomeSerializer
