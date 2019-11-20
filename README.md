@@ -18,7 +18,12 @@ This functionality will allow user to put text in it, and convert the input to i
 
 This functionality will allow the user to input a word/words, and will display the top 10 paragraph/documentID sorted in descending order of the frequency count of a particular word in a particular paragraph.    
 
-## 
+#### Future Scope
+
+###### Removing of Stop Words: 
+Stop words are most occuring and useless words in document like “I”, “the”, “we”, “is”, “an”.
+###### Stemming of Root Word:
+Whenever I want to search for “cat”, I want to see a document that has information about it. But the word present in the document is called “cats” or “catty” instead of “cat”. To relate the both words, I’ll chop some part of each and every word I read so that I could get the “root word”. There are standard tools for performing this like “Porter’s Stemmer”.
 
 ## Sample Input 
 
