@@ -2,15 +2,21 @@
 
 Tap Search is a web app in which you give search for word and it list out top 10 paragraohs in which the word is present according to the frequency of the word.
 
-## How to use Tap Search
+## How to use Tapsearch
 
 Tap Search has 3 functionalities:
 
 #### Clear
 
-Through this funcitonality one can clear the database
+Through this funcitonality user can clear the database
+
 #### Index
+
+This functionality will allow user to put text in it, and convert the input to inverted index then store it to the database.
+
 #### Search
+
+This functionality will allow the user to input a word/words, and will display the top 10 paragraph/documentID sorted in descending order of the frequency count of a particular word in a particular paragraph.    
 
 ## Sample Input 
 
