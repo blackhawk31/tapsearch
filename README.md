@@ -4,6 +4,14 @@ Tap Search is a web app in which you give search for word and it list out top 10
 
 ## How to use Tap Search
 
+Tap Search has 3 functionalities:
+
+#### Clear
+
+Through this funcitonality one can clear the database
+#### Index
+#### Search
+
 ## Sample Input 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in elit malesuada, aliquet mauris a, consectetur lorem. Curabitur interdum sit amet tortor sed laoreet. Fusce ac est nulla. Donec id elementum ipsum, ac mollis enim. Fusce id tincidunt lectus. Integer vel purus neque. Donec erat diam, pharetra quis nulla vitae, molestie commodo velit. Duis quis nunc aliquet, laoreet quam eu, ultricies libero. In convallis ullamcorper mi sed viverra. Nunc faucibus tristique magna. Ut et dignissim mauris. Proin lacinia lectus iaculis lorem consequat, quis imperdiet metus cursus. Vivamus sed scelerisque sapien. Curabitur elementum, risus eu faucibus ultrices, massa ligula viverra urna, in faucibus dui metus eget odio. Nullam eget tempus ante. Morbi enim lectus, faucibus vitae nibh et, egestas feugiat lorem.
