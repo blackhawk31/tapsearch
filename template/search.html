@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Tap Search - Search</title>
+</head>
+
+<body>
+<h2>Enter the query to be searched
+</h2>
+
+<form method = "post" action="result">
+{% csrf_token %} 
+<br>
+<textarea rows="2" cols="30" name="query">
+</textarea>
+<br>
+<button type="submit" value="Submit">Submit</button>
+</form>
+<br>
+<br>
+<br>
+<a href="/">Click here to go back to main page</a>
+</body>
+</html>

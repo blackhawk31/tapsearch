@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Tap Search - Result</title>
+</head>
+
+<body>
+<h2>The result for the given query
+</h2>
+<h3>{{query}}</h3>
+<br>
+{% if flag %}
+{% for i in result %}
+    {% for j in i %}
+        {{j.key}} = Document Id : {{j.document_id}}, Frequency : {{j.frequency}}<br>
+    {% endfor %}
+    <br>
+{% endfor %}
+{% else %}
+<h4>No result found</h4>
+{% endif %}
+<br>
+<br>
+<a href="/">Click here to go back to main page</a>
+</body>
+</html>
