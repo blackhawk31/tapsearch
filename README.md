@@ -36,35 +36,45 @@ Aenean consectetur rutrum ex, eu vulputate massa viverra vel. Suspendisse felis 
 1. For query "lorem" 
 
 lorem = Document Id : 0, Frequency : 4
+
 lorem = Document Id : 2, Frequency : 1
 
 2. For query "ipsum"
 
 ipsum = Document Id : 0, Frequency : 2
+
 ipsum = Document Id : 1, Frequency : 1
 
 3. For query "et"
 
 et = Document Id : 0, Frequency : 2
+
 et = Document Id : 1, Frequency : 1
+
 et = Document Id : 2, Frequency : 1
+
 et = Document Id : 3, Frequency : 1
 
 4. For query "lorem ipsum
 
 lorem = Document Id : 0, Frequency : 4
+
 lorem = Document Id : 2, Frequency : 1
 
 ipsum = Document Id : 0, Frequency : 2
+
 ipsum = Document Id : 1, Frequency : 1
 
 5.For query "lorem ipsum donec"
 
 lorem = Document Id : 0, Frequency : 4
+
 lorem = Document Id : 2, Frequency : 1
 
 ipsum = Document Id : 0, Frequency : 2
+
 ipsum = Document Id : 1, Frequency : 1
 
 donec = Document Id : 3, Frequency : 3
+
 donec = Document Id : 0, Frequency : 2
