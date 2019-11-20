@@ -18,6 +18,8 @@ This functionality will allow user to put text in it, and convert the input to i
 
 This functionality will allow the user to input a word/words, and will display the top 10 paragraph/documentID sorted in descending order of the frequency count of a particular word in a particular paragraph.    
 
+## 
+
 ## Sample Input 
 
 #### Input document
@@ -84,3 +86,8 @@ ipsum = Document Id : 1, Frequency : 1
 donec = Document Id : 3, Frequency : 3
 
 donec = Document Id : 0, Frequency : 2
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
